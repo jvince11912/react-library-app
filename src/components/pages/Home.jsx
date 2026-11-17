@@ -3,10 +3,12 @@ import Highlights from "../Highlights";
 import Featured from "../Featured";
 import Explore from "../UI/Explore";
 import Discounted from "../Discounted";
+import Landing from "../Landing";
 
 const Home = (props) => {
   return (
     <>
+        <Landing />
         <Highlights />
         <Featured />
         <Discounted />
