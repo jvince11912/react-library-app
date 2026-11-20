@@ -6,8 +6,10 @@ import Discounted from "../Discounted";
 import Landing from "../Landing";
 
 const Home = (props) => {
-  return (
-    <>
+  console.log("Home rendered");
+
+  return ( 
+    <>  
         <Landing />
         <Highlights />
         <Featured />
