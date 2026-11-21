@@ -12,11 +12,11 @@ import { useLocation } from "react-router-dom";
 import Cart from "./components/pages/Cart";
 import { useEffect, useState } from "react";
 
-function RouteDebugger() {
-  const location = useLocation();
-  //console.log("Router location:", location.pathname);
-  return null;
-}
+// function RouteDebugger() {
+//   const location = useLocation();
+//   //console.log("Router location:", location.pathname);
+//   return null;
+// }
 
 
 function App() {

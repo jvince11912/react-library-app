@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, {useState} from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import Rating from "../UI/Rating";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
